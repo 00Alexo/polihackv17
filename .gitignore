@@ -1,0 +1,65 @@
+### Node.js (Backend & Frontend React) ###
+# Dependințe
+**/node_modules/
+
+# Variabile de mediu
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+# Fișiere de debug/logs
+**/logs/
+**/*.log
+**/npm-debug.log*
+
+# Build-uri
+**/dist/
+**/build/
+**/.next/
+**/out/
+
+# Configurații IDE
+**/.vscode/
+**/.idea/
+
+### Unity (Game) ###
+# Fișiere generate de Unity
+/[Gg]ame/[Ll]ibrary/
+/[Gg]ame/[Tt]emp/
+/[Gg]ame/[Oo]bj/
+/[Gg]ame/[Bb]uild/
+/[Gg]ame/[Bb]uilds/
+/[Gg]ame/[Ll]ogs/
+/[Gg]ame/[Uu]ser[Ss]ettings/
+
+# Fișiere temporare și cache
+**/.vs/
+**/.gradle/
+**/ExportedObj/
+**/.consulo/
+
+# Fișiere de proiect IDE
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.suo
+**/*.userprefs
+
+# Build-uri și pachete
+**/*.apk
+**/*.aab
+**/*.unitypackage
+**/*.app
+
+### General ###
+# Sistem
+.DS_Store
+Thumbs.db
+
+# Fișiere temporare
+*.tmp
+*.bak
+
+# Fișiere de mediu (orice folder)
+**/.env.*
